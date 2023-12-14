@@ -40,13 +40,15 @@ gem 'redis', '>= 4.0.1'
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
 
+gem 'devise'
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[mswin mswin64 mingw x64_mingw jruby]
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', require: false
-
-gem 'bootstrap'
+gem 'bootstrap', '~> 5.0'
+gem 'bootstrap_form', '~> 5.4'
 
 gem 'sassc-rails'
 
